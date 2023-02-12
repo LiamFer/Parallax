@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: darkcyan;
+    font-family: 'century gothic', monospace;
+}
+
+.hugeimage{
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: inset 5px -5px 15px rgba(0, 0, 0, 0.699);
+}
+
+.hugeimage h1{
+    font-family: "century gothic", monospace;
+    font-size: clamp(1.3em, 4vw, 6em);
+    border: 2px double black;
+    background-color: rgba(240, 248, 255, 0.76);
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%,-50%);
+}
+
+.smallimage{
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: inset 5px -5px 15px rgba(0, 0, 0, 0.699);
+}
+
+.smallimage h1{
+    font-family: "century gothic", monospace;
+    font-size: clamp(2em, 2vw, 6em);
+    border: 2px double black;
+    background-color: rgba(240, 248, 255, 0.76);
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%,-50%);
+}
+
+.sections{
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.sections h2,p{
+    padding: 15px;
+}
+
+.sections h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+}
+
+.sections p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#section1{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+#img1{
+    background-image: url(images/wallpaper02.jpg);
+}
+
+#img2{
+    background-image: url(images/wallpaper01.jpg);
+}
+
+#img3{
+    background-image: url(images/wallpaper03.jpg);
+}
+
+#img4{
+    background-image: url(images/wallpaper04.jpg);
+}
