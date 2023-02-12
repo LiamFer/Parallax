@@ -21,7 +21,7 @@ body{
 
 .hugeimage h1{
     font-family: "century gothic", monospace;
-    font-size: clamp(1.3em, 4vw, 6em);
+    font-size: clamp(2em, 4vw, 6em);
     border: 2px double black;
     background-color: rgba(240, 248, 255, 0.76);
     padding: 10px;
